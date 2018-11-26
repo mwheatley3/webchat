@@ -6,29 +6,28 @@
   <title>Conversable Webchat Preview</title>
 </head>
 <body>
-
   <div
-                data-api_url="https://webchat.staging.conversable.com"
-                data-config_id="b591ee06-9622-4566-9bf2-0f41ef6e65f1"
-                data-title="UPSJobs Test Bot"
-                data-greeting_title="Need Help?"
-                data-greeting_subtitle="Click Below!"
-                data-greeting_cta="Chat now"
-                data-greeting_ref="Default"
-                data-primary_color="#4a90e2"
-                data-secondary_color="#ffffff"
-                data-logo="https://s3.amazonaws.com/demo-assets.conversable/editor/d3b90822-f56e-4de5-9837-97fbd480c464"
-                data-locale="en_US"
-                data-protocol="xhr-polling"
-                data-greeting_initial_display="true"
-                id="conversable-chat"></div>
-              <script>(function(con, vers, able) {
-                var js, fjs = con.getElementsByTagName(vers)[0];
-                if (con.getElementById(able)) return;
-                js = con.createElement(vers); js.id = able;
-                js.src = 'https://s3.amazonaws.com/webchat.conversable/staging/bootstrap.js';
-                fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'conversable-load'));</script>
+                  data-api_url="https://webchat.dev.conversable.com"
+                  data-config_id="8ff82e40-57e7-48db-b661-50ab3d28eaba"
+                  data-title="Nolan R37"
+                  data-greeting_title="Need Help?"
+                  data-greeting_subtitle=""
+                  data-greeting_cta="Chat now"
+                  data-greeting_ref="Default"
+                  data-primary_color="#F43891"
+                  data-secondary_color="#ffffff"
+                  data-logo="https://s3.amazonaws.com/demo-assets.conversable/editor/default_project.png"
+                  data-locale="en_US"
+                  data-protocol="xhr-polling"
+                  data-greeting_initial_display="false"
+                  id="conversable-chat"></div>
+                <script>(function(con, vers, able) {
+                  var js, fjs = con.getElementsByTagName(vers)[0];
+                  if (con.getElementById(able)) return;
+                  js = con.createElement(vers); js.id = able;
+                  js.src = 'https://s3.amazonaws.com/webchat.conversable/dev/bootstrap.js';
+                  fjs.parentNode.insertBefore(js, fjs);
+              }(document, 'script', 'conversable-load'));</script>
 
 </body>
 </html>
